@@ -1,2 +1,2 @@
 # meshjs
-Open Source Meta Verse &amp; DigitalTwin Platform
+Open Source Meta Verse based on 3d models &amp; DigitalTwin Platform
