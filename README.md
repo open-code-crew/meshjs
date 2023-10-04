@@ -34,7 +34,7 @@ We believe in the power of collaboration, and your success is our priority. Join
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+No license as of now.
 
 ## Acknowledgments
 
