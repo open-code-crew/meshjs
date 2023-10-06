@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { Engine, Scene } from "@babylonjs/core";
+import "./SceneComponent.scss";
 
 function SceneComponent({ antialias, engineOptions, adaptToDeviceRatio, sceneOptions, onRender, onSceneReady, ...rest }: any) {
   const reactCanvas = useRef(null);

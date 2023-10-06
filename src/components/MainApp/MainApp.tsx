@@ -1,6 +1,6 @@
 import React from 'react'
 import { FreeCamera, Vector3, HemisphericLight, MeshBuilder } from "@babylonjs/core";
-import SceneComponent from "./SceneComponent"; // uses above component in same directory
+import SceneComponent from "../SceneComponent/SceneComponent"; // uses above component in same directory
 // import SceneComponent from 'babylonjs-hook'; // if you install 'babylonjs-hook' NPM.
 
 let box:any;
