@@ -22,20 +22,20 @@ function SceneComponent({ antialias, engineOptions, adaptToDeviceRatio, sceneOpt
       scene.render();
     });
 
-    // const resize = () => {
-    //   scene.getEngine().resize();
-    // };
+    const resize = () => {
+      scene.getEngine().resize();
+    };
 
-    // if (window) {
-    //   window.addEventListener("resize", resize);
-    // }
+    if (window) {
+      window.addEventListener("resize", resize);
+    }
 
     return () => {
       scene.getEngine().dispose();
 
-      // if (window) {
-      //   window.removeEventListener("resize", resize);
-      // }
+      if (window) {
+        window.removeEventListener("resize", resize);
+      }
     };
   }, [antialias, engineOptions, adaptToDeviceRatio, sceneOptions, onRender, onSceneReady]);
   

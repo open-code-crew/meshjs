@@ -1,0 +1,21 @@
+.header-container{
+    // position: absolute;
+    // top:0%;
+    display:flex;
+    background-color: rgb(24, 24, 24);
+    color:rgb(216, 216, 216);
+    padding: 5px;
+    // justify-content: ;
+    gap:50px;
+    z-index:1000;
+}
+.left-content{
+    display: flex;
+    gap:2px;
+    align-self: center;
+}
+
+
+
+
+

@@ -1,5 +1,6 @@
 .App {
-  width:50vw;
+  /* width:50vw; */
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +36,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.align-self-center{
+  align-self: center;
 }
